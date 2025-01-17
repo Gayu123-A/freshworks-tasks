@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Homepage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">My Social Media > Home</a>
+            <div class="nav-user-icon online">
+                <img src="https://picsum.photos/id/64/200/300">
+            </div>
+        </div>
+    </nav>
+    <div id="app">  
+        <div id="posts-container"></div>
+        <div id="pagination">
+            <button id="prev-page" disabled>Previous</button>
+            <span id="page-info">Page 1</span>
+            <button id="next-page">Next</button>
+        </div>
+    </div>
+
+    <div id="modal" class="modal hidden">
+        <div class="modal-content">
+            <span id="close-modal">&times;</span>
+            <h2>Comments</h2>
+            <div id="comments-container"></div>
+        </div>
+    </div>
+
+    <footer id="about">
+        <p>&copy; 2025 My Social Media Page. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
